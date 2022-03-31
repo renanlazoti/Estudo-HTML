@@ -11,6 +11,7 @@
   box-sizing: border-box;
 }
 
+/* ---------------- Cabeçalho ------------------ */
 header {
   height: 300px; /*altura da caixa*/
   /* adicionar uma imagem ao fundo */
@@ -33,6 +34,7 @@ h1 {
   text-shadow: 4px 4px 1px rgb(32, 18, 18);
 }
 
+/* ----------------------- Navigation ------------------- */
 nav {
   background-color: rgb(32, 18, 18);
   text-align: center;
@@ -58,6 +60,7 @@ nav ul li a {
   text-decoration: none; /*nenhum*/
 }
 
+/* ---------------- Footer ------------------ */
 footer {
   height: 300px; /*altura em 300px*/
   background-color: rgb(32, 18, 18);
@@ -84,4 +87,42 @@ footer div {
 #redes ul li a img {
   width: 60px;
   height: 60px;
+}
+
+/* ----------------- Inicio do css da home ------------------ */
+
+h2 {
+  font-family: sans-serif;
+  font-size: 20pt;
+  margin: 50px;
+  border-bottom: 3px solid rgb(32, 18, 18);
+  text-align: center;
+}
+
+#home p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 15pt;
+  line-height: 18pt; /*espaçamento entre linhas*/
+}
+
+#imghome {
+  text-align: center;
+}
+
+#imghome img {
+  width: 400px;
+  height: 350px;
+  margin: 20px;
+  border-radius: 50px;
+  /* mudar o ponteiro do mouse para uma mao quando passar em cima da imagem */
+  cursor: pointer;
+}
+
+#imghome img:hover {
+  transform: scale(1.1);
+  transition: ease 0.6s;
 }
