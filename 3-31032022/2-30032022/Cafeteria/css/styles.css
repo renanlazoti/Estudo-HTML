@@ -256,3 +256,13 @@ main form input[type="submit"] {
   cursor: pointer;
   border-radius: 10px;
 }
+
+/* ----------------------- Fim do css para pagina contato -------------- */
+
+/* ----------------------- Inicio edição pagina localização ------------- */
+
+#mapa iframe {
+  width: 80%;
+  height: 500px;
+  margin-left: 10%;
+}
