@@ -381,3 +381,23 @@ main form input[type="submit"] {
     background-color: yellow;
   }
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: aqua;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 30px;
+  transition: ease 1s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: blue;
+  transform: scale(2);
+}
